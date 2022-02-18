@@ -3,16 +3,15 @@ import {
 } from './api.js'
 
 
-let filmeImagem = document.getElementById('filmeImagem')
- let filmeTitulo = document.getElementById('filmeTitulo')
- let filmeSinopse = document.getElementById('filmeSinopse')
- let containerFilme = document.querySelector(".container-filme")
- let genero = document.querySelector('.genero')
- let originalTitle = document.querySelector('.titulo-original')
- let dataLançamento = document.querySelector(".data-lançamento")
- let containerError = document.querySelector(".container-error")
- let Err = document.querySelector(".Error")
- let filmeImg = document.querySelector(".filme-img")
+const filmeImagem = document.getElementById('filmeImagem')
+ const filmeTitulo = document.getElementById('filmeTitulo')
+ const filmeSinopse = document.getElementById('filmeSinopse')
+ const containerFilme = document.querySelector(".container-filme")
+ const genero = document.querySelector('.genero')
+ const originalTitle = document.querySelector('.titulo-original')
+ const dataLançamento = document.querySelector(".data-lançamento")
+ const Err = document.querySelector(".Error")
+ const filmeImg = document.querySelector(".filme-img")
  const btnFilme = document.querySelector(".button")
  const textError = document.querySelector(".text-error")
 

@@ -1,10 +1,10 @@
-export const API_KEY = '64a2cb66f8b45c3629b2fffe55444be2';
-export const BASE_URL = 'https://api.themoviedb.org/3/movie/';
+ const API_KEY = '64a2cb66f8b45c3629b2fffe55444be2';
+ const BASE_URL = 'https://api.themoviedb.org/3/movie/';
 export const IMG_URL = 'https://image.tmdb.org/t/p/w200';
-export const language = 'language=pt-BR';
+ const language = 'language=pt-BR';
 
 
-export function Randomizar(){
+function Randomizar(){
   let random = Math.floor(Math.random() * 950)
   return random
 }
