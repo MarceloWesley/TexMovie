@@ -13,7 +13,7 @@ I made this project using TMDB movie API to recommend random movies to users, I 
 
 
 ## Project page link
-- [Projeto](https://marcelowesley.github.io/BeautySalon-OriginSix/)
+- [Projeto](https://marcelowesley.github.io/TexMovie/)
 
 ![TexMovie G](https://user-images.githubusercontent.com/88109070/154764355-0febaac7-1148-49fb-bae5-722d3e13c110.png)
 
