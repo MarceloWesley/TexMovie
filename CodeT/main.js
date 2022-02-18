@@ -87,7 +87,6 @@ function RegistrarDataLançamento(date){
  btnFilme.addEventListener("click", () => {
  let Dados = PegarApi()
   Dados.then(Data => {
-    console.log(Data)
     apiValidation(Data.success)
     RegistrarImagem(Data.poster_path)
     RegistrarTitulo(Data.title)
