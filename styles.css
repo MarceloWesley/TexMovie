@@ -1,0 +1,243 @@
+/*Reset*/
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* BackGround do site*/
+
+body{
+  background: linear-gradient(67.08deg, #1E46A3 0%, #000000 48.94%, #C12A23 99.97%) ;
+  color: white;
+  background-attachment: fixed;
+  padding: 5px;
+ 
+}
+
+/*titulo e Logo*/
+
+.header-container{
+  text-align: center;
+  margin-top: 6rem;
+
+}
+
+.header-container h2 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.img-pipoca{
+  width: 5%;
+  display: inline;
+  position: relative;
+  bottom: -5px;
+
+}
+
+/*container que estão a imagem, sinopse, titulo etc*/
+
+.container-filme{
+  max-width: 700px;
+  margin: 2rem auto;
+  display: none;
+}
+
+
+.item + .item{
+  margin-left: 20px;
+}
+
+
+
+.filme-info{
+  flex: 1 1 200px;
+}
+
+
+
+.filme-sinopse{
+ margin-top: 10px;
+}
+
+.genero-t{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.genero{
+  font-size: 15px;
+  color: red;
+  font-weight: 100;
+}
+
+.titulo-original-t{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.titulo-original{
+  font-size: 15px;
+  color: red;
+  font-weight: 100;
+}
+
+.lançamento-t{
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.data-lançamento{
+  font-size: 15px;
+  color: red;
+  font-weight: 100;
+}
+
+/*Botão da função*/
+
+.button-container{
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+/*------------------Botão-----------------------*/
+.button{
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+ color: #ffffff;
+ font-size: 16px;
+ text-decoration: none;
+ text-transform: uppercase;
+ overflow: hidden;
+ transition: .5s;
+ margin-top: 40px;
+ letter-spacing: 4px;
+ background: linear-gradient(67.08deg, #1E46A3 0%, #000000 48.94%, #C12A23 99.97%) ;
+ border-radius: 5px;
+ cursor: pointer;
+ 
+}
+
+.button img{
+  margin-right: 10px;
+}
+
+.button:hover{
+  background: linear-gradient(67.08deg, #C12A23 0%, #000000 48.94%, #1E46A3 99.97%) ;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #1E46A3,
+               0 0 25px #1E46A3,
+               0 0 50px #1E46A3,
+               0 0 100px #1E46A3;
+
+}
+
+.button span{
+  position: absolute;
+  display: block;
+}
+
+
+
+.instruçao{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.filme-img-error{
+ border: solid;
+ width: 200px;
+ height: 250px;
+ display: block;
+ justify-content: center;
+ align-items: center;
+ font-size: 18px;
+ color: red;
+ font-weight: bolder;
+}
+
+.text-error{
+  border: solid;
+  position: relative;
+  top: 40%;
+  display: none;
+}
+
+.showText{
+  display: block !important;
+}
+
+
+#filmeImagem{
+ width: 100%;
+ border-radius: 5px;
+
+}
+
+/*Classe adicionada quando o botão é clicado*/
+
+.show{
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+
+.Error{
+  text-align: center;
+  font-size: 25px;
+  font-family: poppins, sans-serif;
+  display: none;
+}
+
+/* Informaçoes abaixo da sinopse*/
+
+.info-adicionais{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-adicionais span{
+  flex: 1 1 100px;
+  margin-right: 10px;
+  
+}
+
+
+@media (max-width: 980px){
+  .img-pipoca{
+    width: 10%;
+  }}
+
+
+
+@media (max-width: 426px){
+  .filme-img{
+    margin: 0 auto;
+    width: 55% ;
+  }
+
+  .img-pipoca{
+    width: 13%;
+  }
+}
+
+@media (max-width: 406px){
+  .filme-info{
+    margin-left: 1px !important;
+  }
+}
+
+@media (max-width: 342px){
+  .info-adicionais span{
+    flex: 1 1 50px !important;
+  }
+}

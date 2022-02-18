@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="/assets/favico/favicon.ico" type="image/x-icon">
+  <title>TexMovie</title>
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+  <div class="header-container">
+    <img src="assets/favico/favicon.ico" alt="logo">
+    <h2>Quer uma dica do que assistir ? 
+      <img class="img-pipoca" src="https://wprock.fr/ezoimgfmt/assets.wprock.fr/emoji/joypixels/512/1f37f.png?ezimgfmt=ng%3Awebp%2Fngcb25%2Frs%3Adevice%2Frscb25-1" alt="">
+    </h2>
+  </div>
+
+  <div class="Error">[Error] - Filme Não Encontrado - Tente Novamente.</div>
+
+  <div class="container-error"></div>
+
+  <div class="container-filme">
+    <div class="filme-img item">
+        <p class="text-error"></p>
+      <img id="filmeImagem" src="" alt="imagem de um filme aleatorio">
+    </div>
+
+    <div class="filme-info item">
+      <h2 class="filme-title" id="filmeTitulo">titulo</h2>
+      <p class="filme-sinopse" id="filmeSinopse">sinopse</p>
+      <div class="info-adicionais">
+        <span class="genero-t item-title">Genero: <span class="genero"></span></span>
+        <span class="titulo-original-t item-title">Titulo Original: <span class="titulo-original"></span></span>
+        <span class="lançamento-t item-title">Lançamento: <span class="data-lançamento"></span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="button-container">
+    <button  class="button">
+      <img src="assets/favico/favicon-32x32.png" alt="">
+      Verificar
+    </button>
+  </div>
+
+  <p class="instruçao">Clique em "Verificar" que traremos informações <br> de algum fime para você assistir hoje.</p>
+<script type="module" src="CodeT/main.js"></script>
+</body>
+
+</html>
