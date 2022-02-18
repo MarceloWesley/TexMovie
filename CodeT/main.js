@@ -111,19 +111,4 @@ function RegistrarDataLançamento(date){
 
 
 
- /*export async function PegarApi(){
-  try{
-    if(Random === Random){
-      Random = Math.floor(Math.random() * 900)
-    }
-  return  fetch(`${BASE_URL}${Random}?api_key=${API_KEY}&${language}`)
-
-  } catch(error){
-    console.log(error)
-  }
-}
-
-export function ReturnValues(){
- export const response = await getApi()
-  export const data1 = await response.json()
-}*/
+ 
