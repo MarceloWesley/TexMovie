@@ -33,6 +33,12 @@ function ErrorImg(){
   console.log(textError)
 }
 
+function RemoveErrorClassImg(){
+  filmeImg.classList.remove("filme-img-error")
+  textError.classList.remove("showText")
+}
+
+
 function ErrorOverview(){
   filmeSinopse.innerHTML = "Sinopse não encontrada.";
 }
@@ -44,6 +50,8 @@ function ErrorTitle(){
 function RegistrarImagem(img){
   if(img === null){
    return ErrorImg()
+  }else{
+    RemoveErrorClassImg()
   }
   filmeImagem.src = `${IMG_URL}${img}`
 }
