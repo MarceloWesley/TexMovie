@@ -3,12 +3,12 @@
 # About
 I made this project using TMDB movie API to recommend random movies to users, I plan to add more features in the future.
 
-## Technologies used
+## Technologies 
 - JavaScript
 - CSS
 - HTML
 
-## Used api
+## API
 - [TMDB Movie](https://scrollrevealjs.org/)
 
 
